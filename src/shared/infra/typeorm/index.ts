@@ -8,7 +8,7 @@ import { CreateUserTokens1607917238905 } from './migrations/1607917238905-Create
 
 export const dataSource = new DataSource({
   type: 'mysql',
-  host: 'localhost',
+  host: '172.17.0.1',
   port: 3306,
   username: 'root',
   password: 'example',
